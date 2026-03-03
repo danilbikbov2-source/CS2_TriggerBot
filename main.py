@@ -13,7 +13,7 @@ m_iIDEntIndex = client.get('C_CSPlayerPawnBase', 'm_iIDEntIndex')
 m_iTeamNum = client.get('C_BaseEntity', 'm_iTeamNum')
 m_iHealth = client.get('C_BaseEntity', 'm_iHealth')
 
-triggerKey = "shift"
+triggerKey = "x"
 
 def main():
     print(f"[-] TriggerBot started.\n[-] Trigger key: {triggerKey.upper()}")
@@ -60,3 +60,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
